@@ -23,11 +23,43 @@ movie-guide-web-application/
 git clone https://github.com/bhanuprasad1226/movie-guide-web-application.git
 cd movie-guide-web-application
 ```
-**2️⃣ Open the website**
+**2️⃣ Set up OMDb API**
+You need an OMDb API key to fetch movie details.
+**Steps:**
+
+1. Visit [OMDb API.](https://www.omdbapi.com/apikey.aspx//)
+
+2. Sign up with your email and choose the Free plan.
+
+3. You’ll receive an API key in your email.
+
+4. Open script.js in your project and replace:
+```bash
+const apiKey = "YOUR_API_KEY_HERE";
+```
+with your actual key.
+
+**3️⃣ Open the website**
 Simply open `index.html` in your browser.
 (For API calls to work, make sure your OMDb API key is correctly set in the script.)
 ## 🌐 Live Demo
 [▶ Visit the Movie Guide Website](https://movieguide-web-app.netlify.app//)
+## 🖥 How to Use
+1. Type a movie name into the search bar.
+
+2. The website fetches details from the OMDb API.
+
+3. View results such as title, year, poster, and other information.
+## 🛠 Technologies Used
+- **HTML** – Structure of the website.
+
+- **CSS** – Styling and layout.
+
+- **JavaScript** – Logic and API integration.
+
+- **OMDb API** – Source of movie details.
+
+
 
 
 
