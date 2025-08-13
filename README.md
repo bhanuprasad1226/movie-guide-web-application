@@ -27,6 +27,7 @@ cd movie-guide-web-application
 Simply open `index.html` in your browser.
 (For API calls to work, make sure your OMDb API key is correctly set in the script.)
 ## 🌐 Live Demo
+[▶ Visit the Movie Guide Website](https://movieguide-web-app.netlify.app//)
 
 
 
