@@ -27,7 +27,7 @@ cd movie-guide-web-application
 You need an OMDb API key to fetch movie details.
 **Steps:**
 
-1. Visit [OMDb API.](https://www.omdbapi.com/apikey.aspx//)
+1. Visit [OMDb API.](https://www.omdbapi.com/apikey.aspx/)
 
 2. Sign up with your email and choose the Free plan.
 
@@ -40,6 +40,7 @@ const apiKey = "YOUR_API_KEY_HERE";
 with your actual key.
 
 **3️⃣ Open the website**
+
 Simply open `index.html` in your browser.
 (For API calls to work, make sure your OMDb API key is correctly set in the script.)
 ## 🌐 Live Demo
